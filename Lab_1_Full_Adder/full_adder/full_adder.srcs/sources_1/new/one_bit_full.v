@@ -30,8 +30,8 @@ module one_bit_full(
     
     wire w1,w2,w3;
     
-     one_bit_half h1(in1.in1, in2.in2, carry.w1, sum.w2);
-     one_bit_half h2(in1.in2, in2.carry, carry.cout, sum.sum);
-     or G1(sum, w2, sum);
+    one_bit_half h1(in1, in2, w1, w2);
+    one_bit_half h2(w1,cin,sum,w3);
+    or G1(carry, w2, w3);
     
 endmodule

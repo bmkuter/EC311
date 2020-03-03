@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Mar  3 00:29:40 2020
+# Process ID: 20000
+# Current directory: C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17196 C:\Users\Ben\Documents\GitHub\EC311\Lab_1_Full_Adder\full_adder\full_adder.xpr
+# Log file: C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder/vivado.log
+# Journal file: C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder/full_adder.xpr
+update_compile_order -fileset sources_1

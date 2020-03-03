@@ -1,6 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/bmkuter/lab_1/lab_1.srcs/sources_1/new/1_Bit_Adder.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module One_Bit_Half_Adder
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/bmkuter/lab_1/lab_1.srcs/sources_1/new/One_Bit_Full_Adder.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module One_Bit_Full_Adder
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/bmkuter/lab_1/lab_1.srcs/sim_1/new/Testbench_Fulladder_onebit.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module Testbench_Fulladder_onebit

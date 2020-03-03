@@ -23,8 +23,8 @@
 module one_bit_half(
     input in1,
     input in2,
-    output carry,
-    output sum
+    output sum,
+    output carry
     );
     
     xor G1(sum,in1,in2);
