@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1583044064">
+  <File Type="PA-TCL" Name="one_bit_half.tcl"/>
+  <File Type="BITSTR-BMM" Name="one_bit_half_bd.bmm"/>
+  <File Type="REPORTS-TCL" Name="one_bit_half_reports.tcl"/>
+  <File Type="OPT-DCP" Name="one_bit_half_opt.dcp"/>
+  <File Type="OPT-HWDEF" Name="one_bit_half.hwdef"/>
+  <File Type="PWROPT-DCP" Name="one_bit_half_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="one_bit_half_placed.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="one_bit_half_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="one_bit_half.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="one_bit_half_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="one_bit_half.bin"/>
+  <File Type="PHYSOPT-DCP" Name="one_bit_half_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="one_bit_half.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="one_bit_half_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="one_bit_half_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="one_bit_half_routed_bb.dcp"/>
+  <File Type="BITSTR-LTX" Name="one_bit_half.ltx"/>
+  <File Type="BITSTR-MMI" Name="one_bit_half.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="one_bit_half.sysdef"/>
+  <File Type="ROUTE-TIMING-PB" Name="one_bit_half_timing_summary_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="one_bit_half_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="one_bit_half_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="one_bit_half.bit"/>
+  <File Type="BITSTR-RBT" Name="one_bit_half.rbt"/>
+  <File Type="BITSTR-NKY" Name="one_bit_half.nky"/>
+  <File Type="BG-DRC" Name="one_bit_half.drc"/>
+  <File Type="RDI-RDI" Name="one_bit_half.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/1_bit_half.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../full_adder/full_adder.srcs/sources_1/new/1_bit_half.v"/>
+        <Attr Name="ImportTime" Val="1583257694"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="one_bit_half"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

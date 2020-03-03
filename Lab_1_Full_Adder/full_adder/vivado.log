@@ -1,20 +1,73 @@
 #-----------------------------------------------------------
-# Vivado v2019.2 (64-bit)
-# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
-# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Tue Mar  3 00:29:40 2020
-# Process ID: 20000
-# Current directory: C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17196 C:\Users\Ben\Documents\GitHub\EC311\Lab_1_Full_Adder\full_adder\full_adder.xpr
-# Log file: C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder/vivado.log
-# Journal file: C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder\vivado.jou
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Mar  3 12:50:02 2020
+# Process ID: 14220
+# Current directory: C:/Users/bmkuter/GitHub/EC311/Lab_1_Full_Adder/full_adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9812 C:\Users\bmkuter\GitHub\EC311\Lab_1_Full_Adder\full_adder\full_adder.xpr
+# Log file: C:/Users/bmkuter/GitHub/EC311/Lab_1_Full_Adder/full_adder/vivado.log
+# Journal file: C:/Users/bmkuter/GitHub/EC311/Lab_1_Full_Adder/full_adder\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder/full_adder.xpr
+open_project C:/Users/bmkuter/GitHub/EC311/Lab_1_Full_Adder/full_adder/full_adder.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder' since last save.
 Scanning sources...
 Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/bmkuter/GitHub/EC311/Lab_1_Full_Adder/full_adder/full_adder.ip_user_files', nor could it be found using path 'C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder/full_adder.ip_user_files'.
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name DcpsUptoDate
+WARNING: [Project 1-231] Project 'full_adder.xpr' was created with a future version and may or may not perform reliably with this version of Vivado. It has been opened in read-only mode for the protection of unrecognized data. Use 'File | Save Project As...' if you wish to alter a copy of the project.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'B:/Vivado/2019.2/data/ip'.
-open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 751.266 ; gain = 116.762
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 819.105 ; gain = 120.563
 update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: one_bit_full
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1235.738 ; gain = 171.473
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'one_bit_full' [C:/Users/bmkuter/GitHub/EC311/Lab_1_Full_Adder/full_adder/full_adder.srcs/sources_1/new/one_bit_full.v:23]
+INFO: [Synth 8-6157] synthesizing module 'one_bit_half' [C:/Users/bmkuter/GitHub/EC311/Lab_1_Full_Adder/full_adder/full_adder.srcs/sources_1/new/1_bit_half.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'one_bit_half' (1#1) [C:/Users/bmkuter/GitHub/EC311/Lab_1_Full_Adder/full_adder/full_adder.srcs/sources_1/new/1_bit_half.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'one_bit_full' (2#1) [C:/Users/bmkuter/GitHub/EC311/Lab_1_Full_Adder/full_adder/full_adder.srcs/sources_1/new/one_bit_full.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1272.512 ; gain = 208.246
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1272.512 ; gain = 208.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1272.512 ; gain = 208.246
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1344.805 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 1440.766 ; gain = 376.500
+8 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:17 . Memory (MB): peak = 1440.766 ; gain = 603.203
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar  3 12:53:43 2020...

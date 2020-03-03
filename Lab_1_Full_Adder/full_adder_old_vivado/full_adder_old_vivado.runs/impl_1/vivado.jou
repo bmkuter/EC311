@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Mar  1 01:27:51 2020
+# Process ID: 2172
+# Current directory: C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder/full_adder.runs/impl_1
+# Command line: vivado.exe -log one_bit_half.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source one_bit_half.tcl -notrace
+# Log file: C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder/full_adder.runs/impl_1/one_bit_half.vdi
+# Journal file: C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder/full_adder.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source one_bit_half.tcl -notrace
