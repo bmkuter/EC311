@@ -1,0 +1,9 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/bmkuter/GitHub/EC311/Lab_1_Full_Adder/full_adder_old_vivado/full_adder_old_vivado.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/bmkuter/GitHub/EC311/Lab_1_Full_Adder/full_adder_old_vivado/full_adder_old_vivado.srcs/sim_1/new/four_bit_adder_testbench.v,1583271236,verilog,,,,four_bit_adder_testbench,,,,,,,,
+C:/Users/bmkuter/GitHub/EC311/Lab_1_Full_Adder/full_adder_old_vivado/full_adder_old_vivado.srcs/sources_1/new/1_bit_half.v,1583257694,verilog,,C:/Users/bmkuter/GitHub/EC311/Lab_1_Full_Adder/full_adder_old_vivado/full_adder_old_vivado.srcs/sources_1/new/four_bit_adder.v,,one_bit_half,,,,,,,,
+C:/Users/bmkuter/GitHub/EC311/Lab_1_Full_Adder/full_adder_old_vivado/full_adder_old_vivado.srcs/sources_1/new/four_bit_adder.v,1583267490,verilog,,C:/Users/bmkuter/GitHub/EC311/Lab_1_Full_Adder/full_adder_old_vivado/full_adder_old_vivado.srcs/sources_1/new/one_bit_full.v,,four_bit_adder,,,,,,,,
+C:/Users/bmkuter/GitHub/EC311/Lab_1_Full_Adder/full_adder_old_vivado/full_adder_old_vivado.srcs/sources_1/new/one_bit_full.v,1583269110,verilog,,C:/Users/bmkuter/GitHub/EC311/Lab_1_Full_Adder/full_adder_old_vivado/full_adder_old_vivado.srcs/sim_1/new/four_bit_adder_testbench.v,,one_bit_full,,,,,,,,

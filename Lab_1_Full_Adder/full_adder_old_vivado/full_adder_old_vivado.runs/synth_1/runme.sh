@@ -11,9 +11,9 @@ echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executi
 exit
 
 if [ -z "$PATH" ]; then
-  PATH=B:/Vivado/2019.2/ids_lite/ISE/bin/nt64;B:/Vivado/2019.2/ids_lite/ISE/lib/nt64:B:/Vivado/2019.2/bin
+  PATH=C:/Xilinx/SDK/2019.1/bin;C:/Xilinx/Vivado/2019.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2019.1/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2019.1/bin
 else
-  PATH=B:/Vivado/2019.2/ids_lite/ISE/bin/nt64;B:/Vivado/2019.2/ids_lite/ISE/lib/nt64:B:/Vivado/2019.2/bin:$PATH
+  PATH=C:/Xilinx/SDK/2019.1/bin;C:/Xilinx/Vivado/2019.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2019.1/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2019.1/bin:$PATH
 fi
 export PATH
 
@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder/full_adder.runs/synth_1'
+HD_PWD='C:/Users/bmkuter/GitHub/EC311/Lab_1_Full_Adder/full_adder_old_vivado/full_adder_old_vivado.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log one_bit_half.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source one_bit_half.tcl
+EAStep vivado -log four_bit_adder.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source four_bit_adder.tcl
