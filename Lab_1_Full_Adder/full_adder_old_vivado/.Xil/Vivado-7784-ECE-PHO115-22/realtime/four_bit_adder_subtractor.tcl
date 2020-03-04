@@ -35,7 +35,6 @@ set rt::rc [catch {
     if {$rt::useElabCache == false} {
       rt::read_verilog {
       C:/Users/bmkuter/GitHub/EC311/Lab_1_Full_Adder/full_adder_old_vivado/full_adder_old_vivado.srcs/sources_1/new/1_bit_half.v
-      C:/Users/bmkuter/GitHub/EC311/Lab_1_Full_Adder/full_adder_old_vivado/full_adder_old_vivado.srcs/sources_1/new/four_bit_adder.v
       C:/Users/bmkuter/GitHub/EC311/Lab_1_Full_Adder/full_adder_old_vivado/full_adder_old_vivado.srcs/sources_1/new/one_bit_full.v
       C:/Users/bmkuter/GitHub/EC311/Lab_1_Full_Adder/full_adder_old_vivado/full_adder_old_vivado.srcs/sources_1/new/four_bit_adder_subtractor.v
     }

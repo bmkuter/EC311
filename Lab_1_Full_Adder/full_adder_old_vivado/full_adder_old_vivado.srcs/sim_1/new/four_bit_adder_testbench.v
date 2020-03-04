@@ -28,8 +28,6 @@ module four_bit_adder_testbench(
     reg c0,a0,a1,a2,a3,b0,b1,b2,b3; //Inputs
     wire s0,s1,s2,s3, carry; //Outputs
     
-    four_bit_adder add1(.c0(c0),.a0(a0),.b0(b0),.a1(a1),.b1(b1),.a2(a2),.b2(b2),.a3(a3),.b3(b3));
-    
     initial
     begin
         c0 = 0;

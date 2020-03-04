@@ -34,10 +34,11 @@ module four_bit_adder(
     output s1,
     output s2,
     output s3,
-    output carry
+    output carry,
+    output c3
     );
     
-    wire c1,c2,c3;
+    wire c1,c2;
     
     one_bit_full f0(a0,b0,c0,s0,c1);
     one_bit_full f1(a1,b1,c1,s1,c2);

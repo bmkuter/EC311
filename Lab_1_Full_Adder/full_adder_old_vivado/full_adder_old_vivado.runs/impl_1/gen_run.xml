@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1583268843">
-  <File Type="ROUTE-PWR" Name="four_bit_adder_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="four_bit_adder.tcl"/>
   <File Type="BITSTR-BMM" Name="four_bit_adder_bd.bmm"/>
-  <File Type="ROUTE-PWR-SUM" Name="four_bit_adder_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="four_bit_adder_reports.tcl"/>
+  <File Type="PA-TCL" Name="four_bit_adder.tcl"/>
   <File Type="OPT-DCP" Name="four_bit_adder_opt.dcp"/>
-  <File Type="OPT-DRC" Name="four_bit_adder_drc_opted.rpt"/>
+  <File Type="REPORTS-TCL" Name="four_bit_adder_reports.tcl"/>
   <File Type="OPT-HWDEF" Name="four_bit_adder.hwdef"/>
   <File Type="PWROPT-DCP" Name="four_bit_adder_pwropt.dcp"/>
   <File Type="PLACE-DCP" Name="four_bit_adder_placed.dcp"/>
-  <File Type="PLACE-IO" Name="four_bit_adder_io_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="four_bit_adder_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="four_bit_adder_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="four_bit_adder_control_sets_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="four_bit_adder_incremental_reuse_pre_placed.rpt"/>
   <File Type="BG-BGN" Name="four_bit_adder.bgn"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="four_bit_adder_postplace_pwropt.dcp"/>
@@ -23,32 +16,17 @@
   <File Type="ROUTE-ERROR-DCP" Name="four_bit_adder_routed_error.dcp"/>
   <File Type="ROUTE-DCP" Name="four_bit_adder_routed.dcp"/>
   <File Type="ROUTE-BLACKBOX-DCP" Name="four_bit_adder_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="four_bit_adder_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="four_bit_adder_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="four_bit_adder_drc_routed.rpx"/>
   <File Type="BITSTR-LTX" Name="four_bit_adder.ltx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="four_bit_adder_methodology_drc_routed.rpt"/>
   <File Type="BITSTR-MMI" Name="four_bit_adder.mmi"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="four_bit_adder_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="four_bit_adder_methodology_drc_routed.pb"/>
   <File Type="BITSTR-SYSDEF" Name="four_bit_adder.sysdef"/>
-  <File Type="ROUTE-PWR-RPX" Name="four_bit_adder_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="four_bit_adder_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="four_bit_adder_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="four_bit_adder_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="four_bit_adder_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="four_bit_adder_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-CLK" Name="four_bit_adder_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="four_bit_adder_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="four_bit_adder_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="four_bit_adder_bus_skew_routed.rpx"/>
+  <File Type="RDI-RDI" Name="four_bit_adder.vdi"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="four_bit_adder_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="four_bit_adder_postroute_physopt_bb.dcp"/>
   <File Type="BG-BIT" Name="four_bit_adder.bit"/>
   <File Type="BITSTR-RBT" Name="four_bit_adder.rbt"/>
   <File Type="BITSTR-NKY" Name="four_bit_adder.nky"/>
   <File Type="BG-DRC" Name="four_bit_adder.drc"/>
-  <File Type="RDI-RDI" Name="four_bit_adder.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
