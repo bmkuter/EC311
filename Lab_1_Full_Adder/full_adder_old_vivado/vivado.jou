@@ -167,3 +167,6 @@ launch_simulation
 launch_simulation
 source four_bit_add_sub_testbench.tcl
 relaunch_sim
+relaunch_sim
+relaunch_sim
+synth_design -rtl -name rtl_1
