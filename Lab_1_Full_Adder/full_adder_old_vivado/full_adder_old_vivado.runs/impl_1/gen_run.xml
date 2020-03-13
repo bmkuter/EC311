@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1583268843">
-  <File Type="BITSTR-BMM" Name="four_bit_adder_bd.bmm"/>
   <File Type="PA-TCL" Name="four_bit_adder.tcl"/>
-  <File Type="OPT-DCP" Name="four_bit_adder_opt.dcp"/>
+  <File Type="BITSTR-BMM" Name="four_bit_adder_bd.bmm"/>
   <File Type="REPORTS-TCL" Name="four_bit_adder_reports.tcl"/>
+  <File Type="OPT-DCP" Name="four_bit_adder_opt.dcp"/>
   <File Type="OPT-HWDEF" Name="four_bit_adder.hwdef"/>
+  <File Type="BG-BGN" Name="four_bit_adder.bgn"/>
   <File Type="PWROPT-DCP" Name="four_bit_adder_pwropt.dcp"/>
   <File Type="PLACE-DCP" Name="four_bit_adder_placed.dcp"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="four_bit_adder_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BGN" Name="four_bit_adder.bgn"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="four_bit_adder_postplace_pwropt.dcp"/>
   <File Type="BG-BIN" Name="four_bit_adder.bin"/>
   <File Type="PHYSOPT-DCP" Name="four_bit_adder_physopt.dcp"/>

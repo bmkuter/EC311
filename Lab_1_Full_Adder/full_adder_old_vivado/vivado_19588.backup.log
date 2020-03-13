@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Mar 10 12:49:50 2020
+# Process ID: 19588
+# Current directory: C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder_old_vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15444 C:\Users\Ben\Documents\GitHub\EC311\Lab_1_Full_Adder\full_adder_old_vivado\full_adder_old_vivado.xpr
+# Log file: C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder_old_vivado/vivado.log
+# Journal file: C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder_old_vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 10 12:50:49 2020...
