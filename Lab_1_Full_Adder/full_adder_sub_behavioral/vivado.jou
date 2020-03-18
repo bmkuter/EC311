@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Mar 17 18:44:17 2020
+# Process ID: 7392
+# Current directory: C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder_sub_behavioral
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29988 C:\Users\Ben\Documents\GitHub\EC311\Lab_1_Full_Adder\full_adder_sub_behavioral\full_adder_sub_behavioral.xpr
+# Log file: C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder_sub_behavioral/vivado.log
+# Journal file: C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder_sub_behavioral\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder_sub_behavioral/full_adder_sub_behavioral.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_files -from_files C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder_sub_behavioral/full_adder_sub_behavioral.srcs/sources_1/new/behav_four_bit_add_sub.v -to_files C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder_sub_behavioral/full_adder_sub_behavioral.srcs/sources_1/new/four_bit_add_sub.v -filesets [get_filesets *]
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder_sub_behavioral/full_adder_sub_behavioral.srcs/sources_1/new/behav_one_bit_full_adder.v -to_files C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder_sub_behavioral/full_adder_sub_behavioral.srcs/sources_1/new/one_bit_full_adder.v -filesets [get_filesets *]
+update_files -from_files C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder_sub_behavioral/full_adder_sub_behavioral.srcs/sim_1/new/behav_four_bit_add_sub_testbench.v -to_files C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder_sub_behavioral/full_adder_sub_behavioral.srcs/sim_1/new/four_bit_add_sub_testbench.v -filesets [get_filesets *]
+update_files -from_files C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder_sub_behavioral/full_adder_sub_behavioral.srcs/sim_1/new/behav_one_bit_full_adder_testbench.v -to_files C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder_sub_behavioral/full_adder_sub_behavioral.srcs/sim_1/new/one_bit_full_adder_testbench.v -filesets [get_filesets *]
+update_compile_order -fileset sim_1
+launch_simulation
+source four_bit_add_sub_testbench.tcl
+close_sim

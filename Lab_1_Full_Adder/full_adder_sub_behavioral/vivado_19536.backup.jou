@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Mar 17 18:35:10 2020
+# Process ID: 19536
+# Current directory: C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder_sub_behavioral
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15076 C:\Users\Ben\Documents\GitHub\EC311\Lab_1_Full_Adder\full_adder_sub_behavioral\full_adder_sub_behavioral.xpr
+# Log file: C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder_sub_behavioral/vivado.log
+# Journal file: C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder_sub_behavioral\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Ben/Documents/GitHub/EC311/Lab_1_Full_Adder/full_adder_sub_behavioral/full_adder_sub_behavioral.xpr
+update_compile_order -fileset sources_1
